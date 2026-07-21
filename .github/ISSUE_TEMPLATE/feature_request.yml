@@ -1,0 +1,34 @@
+name: Feature request
+description: Propose an improvement within the PDF publishing scope
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What publishing problem should this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: Describe the user-visible outcome, not only an implementation.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope check
+      options:
+        - label: This request concerns Markdown-to-PDF publishing on Obsidian desktop.
+          required: true
+        - label: The example contains no private or client branding data.
+          required: true
+
