@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Generated plugin artifacts
+main.js
+main.js.map
+*.tsbuildinfo
+coverage/
+dist/
+
+# Local Obsidian settings and private branding data
+data.json
+
+# Temporary publishing artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.tmp
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
